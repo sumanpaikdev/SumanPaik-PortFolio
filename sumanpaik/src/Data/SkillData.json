@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/html.png?raw=true",
+        "title": "HTML"
+    },
+    {
+        "id": 2,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/css-3.png?raw=true",
+        "title": "CSS"
+    },
+    {
+        "id": 3,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/js.png?raw=true",
+        "title": "JavaScript"
+    },
+    {
+        "id": 4,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/atom.png?raw=true",
+        "title": "React Js"
+    },
+    {
+        "id": 5,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/wind.png?raw=true",
+        "title": "TailWind Css"
+    },
+    {
+        "id": 6,
+        "logo": "https://github.com/sumanpaikdev/SumanPaik-PortFolio/blob/bd1d40a0be3cb539c36a1dbde200bf697858861e/node-js.png?raw=true",
+        "title": "Node Js"
+    }
+]
