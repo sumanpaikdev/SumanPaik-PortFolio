@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       return setShowElement(true);
-    }, 5000);
+    }, 12000);
   }, []);
 
   function toggleElement() {
