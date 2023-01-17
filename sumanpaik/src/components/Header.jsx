@@ -6,11 +6,11 @@ function Header() {
     const {theme} = useContext(ThemeContext)
     
     return(
-        <div className="header-container">
-            <NavLink activeClassName="active" className={`header-nav-item ${theme}-theme`} to="/">Home</NavLink>
-            <NavLink activeClassName="active" className={`header-nav-item ${theme}-theme`} to="/skill">Skills</NavLink>
-            <NavLink activeClassName="active" className={`header-nav-item ${theme}-theme`} to="/project">Projects</NavLink>
-            <NavLink activeClassName="active" className={`header-nav-item ${theme}-theme`} to="/contact">Contact</NavLink>
+        <div className={`header-container ${theme ? "light" : "dark"}-theme`}>
+            <NavLink activeClassName="active" className={`header-nav-item ${theme ? "light" : "dark"}-theme`} to="/">Home</NavLink>
+            <NavLink activeClassName="active" className={`header-nav-item ${theme ? "light" : "dark"}-theme`} to="/skill">Skills</NavLink>
+            <NavLink activeClassName="active" className={`header-nav-item ${theme ? "light" : "dark"}-theme`} to="/project">Projects</NavLink>
+            <NavLink activeClassName="active" className={`header-nav-item ${theme ? "light" : "dark"}-theme`} to="/contact">Contact</NavLink>
         </div>
     )
 }

@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "title": "SAMSUNG Online Store Clone using ReactJS.",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css",
+            "three": "Javascript",
+            "four": "ReactJs"
+        },
+        "github": "https://github.com/sumanpaikdev/Samsung-Online-Store-Clone",
+        "live": "https://samsung-online-store-clone-react.netlify.app/",
+        "responsive": true
+    },
+    {
+        "id": 2,
+        "title": "The Future of Finance in DeFi.",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css"
+        },
+        "github": "https://github.com/sumanpaikdev/css-all-web-Components/tree/master/deFi%20Website",
+        "live": "https://defi-project-website.netlify.app/",
+        "responsive": false
+    },
+    {
+        "id": 3,
+        "title": "Collection of Super Rare NFTs.",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css"
+        },
+        "github": "https://github.com/sumanpaikdev/css-all-web-Components/tree/master/NFTWebsite",
+        "live": "https://nfts-marketplace-collection.netlify.app/",
+        "responsive": false
+    },
+    {
+        "id": 4,
+        "title": "Meme Generator.",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css",
+            "three": "Javascript",
+            "four": "ReactJs"
+        },
+        "github": "https://github.com/sumanpaikdev/React-Library-Code/tree/master/REACT_RECAP/responsive-meme-generator",
+        "live": "https://meme-generator-reactjs-responsive.netlify.app/",
+        "responsive": true
+    },
+    {
+        "id": 5,
+        "title": "Tenzies Game.",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css",
+            "three": "Javascript",
+            "four": "ReactJs"
+        },
+        "github": "https://github.com/sumanpaikdev/React-Library-Code/tree/master/REACT_RECAP/tenzies-game",
+        "live": "https://tenzies-game-responsive.netlify.app/",
+        "responsive": true
+    },
+    {
+        "id": 6,
+        "title": "HTML Form (submit output: Developer console).",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css",
+            "three": "Javascript",
+            "four": "ReactJs"
+        },
+        "github": "https://github.com/sumanpaikdev/React-Library-Code/tree/master/REACT_RECAP/submit-form-in-react",
+        "live": "https://form-using-react-js.netlify.app/",
+        "responsive": true
+    },
+    {
+        "id": 7,
+        "title": "Sign In Form (submit output: Developer console).",
+        "imageurl": "",
+        "tech": {
+            "one": "html",
+            "two": "css",
+            "three": "Javascript",
+            "four": "ReactJs"
+        },
+        "github": "https://github.com/sumanpaikdev/React-Library-Code/tree/master/REACT_RECAP/sign-up-form",
+        "live": "https://sign-in-form-react.netlify.app/",
+        "responsive": true
+    }
+]

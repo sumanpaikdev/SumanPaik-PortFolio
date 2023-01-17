@@ -5,7 +5,7 @@ function Home(props) {
     const {theme} = useContext(ThemeContext)
   return (
     <div className="home-container">
-      <div className={`left ${theme}-theme`}>
+      <div className={`left ${theme ? "light" : "dark"}-theme`}>
         <h1 className="left-h1">Suman <span className="left-h1-span">Paik</span></h1>
         <p className="left-p">
           Hello! my name is Suman Paik. I’m a Web developer. I am able to create
@@ -16,7 +16,7 @@ function Home(props) {
           continuously learning new stuff.
         </p>
       </div>
-      <div class={`card ${theme}-theme`}>
+      <div class={`card ${theme ? "light" : "dark"}-theme`}>
         <div class="imgBx">
           <img
             src={props.pic}
