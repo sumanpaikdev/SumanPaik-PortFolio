@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { ThemeContext } from "./ThemeContext";
@@ -23,6 +23,17 @@ import Linkedin from "./assets/linkedin.png";
 import YouTube from "./assets/youtube.png";
 
 function App() {
+  const [showElement, setShowElement] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      return setShowElement(true);
+    }, 5000);
+  }, []);
+
+  function toggleElement() {
+    setShowElement(false);
+  }
+
   const { theme, switchTheme } = useContext(ThemeContext);
   return (
     <div className={`app-container ${theme ? "light" : "dark"}-theme`}>
@@ -49,6 +60,31 @@ function App() {
       <button onClick={switchTheme} className="theme-btn">
         <img src={theme ? sunD : sunL} alt="mode" className="theme-btn-image" />
       </button>
+
+      {showElement ? (
+        <div
+          class={`source-code-one ${theme ? "dark" : "light"}-theme`}
+          id="submitmsg"
+        >
+          <p class="source-link">
+            Hello👋 I'm Suman. If you want to see the codebase of my website
+            then tap the{" "}
+            <span>
+              <a
+                href="https://github.com/sumanpaikdev/SumanPaik-PortFolio"
+                className="sr-ln"
+              >
+                source code
+              </a>
+            </span>
+          </p>
+          <a class="close-btn" onClick={toggleElement}>
+            close
+          </a>
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }
