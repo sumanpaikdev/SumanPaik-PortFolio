@@ -17,10 +17,10 @@ import Suman from "./assets/suman.jpg";
 import sunL from "./assets/sunL.png";
 import sunD from "./assets/sunD.png";
 import Gmail from "./assets/gmail.png";
-import Twitter from "./assets/twitter.png";
-import GitHub from "./assets/github.png";
-import Linkedin from "./assets/linkedin.png";
-import YouTube from "./assets/youtube.png";
+// import Twitter from "./assets/twitter.png";
+// import GitHub from "./assets/github.png";
+// import Linkedin from "./assets/linkedin.png";
+// import YouTube from "./assets/youtube.png";
 
 function App() {
   const [showElement, setShowElement] = useState(false);
@@ -48,10 +48,10 @@ function App() {
           element={
             <Contact
               gmail={Gmail}
-              twitter={Twitter}
-              github={GitHub}
-              linkedin={Linkedin}
-              youtube={YouTube}
+              // twitter={Twitter}
+              // github={GitHub}
+              // linkedin={Linkedin}
+              // youtube={YouTube}
             />
           }
         />
