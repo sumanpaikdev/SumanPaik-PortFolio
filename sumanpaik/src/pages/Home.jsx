@@ -8,7 +8,7 @@ function Home(props) {
       <div className={`left ${theme ? "light" : "dark"}-theme`}>
         <h1 className="left-h1">Suman <span className="left-h1-span">Paik</span></h1>
         <p className="left-p">
-          I am Suman Paik. I am a web developer from India. I have an experience of close to more than two year in doing web development through creating projects and designing stuff. I’m fascinated by psychology of the human mind, drawing inspiration from what drives us.
+          I am Suman Paik. I am a web developer from India.
         </p>
       </div>
       <div class={`card ${theme ? "light" : "dark"}-theme`}>
